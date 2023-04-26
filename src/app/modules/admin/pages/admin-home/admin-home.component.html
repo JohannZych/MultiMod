@@ -1,1 +1,6 @@
-<p>admin-home works!</p>
+<div *ngFor="let user of userList">
+  <p> Utilisateur :{{user.username}}</p>
+  <p> Nom :{{user.firstname}}</p>
+  <p> Prénom :{{user.lastname}}</p>
+  <p> Email :{{user.email}}</p>
+</div>
